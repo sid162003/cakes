@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake website design</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+<body>
+
+
+
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> cake </a>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#About">About</a>
+        <a href="#Review">Review</a>
+        <a href="#Blogs">blogs</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+
+</header>
+
+
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Have a Cake-A-Licious</span>
+                <h3>Baking Delightful Memories</h3>
+                <a href="#" class="btn">More..</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/home-img-1.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Have a Cake-A-Licious</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/home-img-2.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Have a Cake-A-Licious</span>
+                <h3></h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/home-img-3.jpeg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/banner-1.jpeg" alt="">
+        <div class="content">
+        <span>Browine cake</span>
+        <h3>Chocolatey</h3>
+        
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/banner-2.jpeg" alt="">
+        <div class="content">
+        <span>Chocolate lava cake</span>
+        <h3>molten chocolate oozes</h3>
+        
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/banner-3.jpeg" alt="">
+        <div class="content">
+        <span>Chocolate truffle cake</span>
+        <h3>authentic chocolate</h3>
+        
+    </div>
+    </div>
+
+</section>
+
+
+
+
+<div class="heading">
+    <h1>Our shop</h1>
+    </div>
+
+<section class="category">
+
+<h1 class="title"> our <span>category</span> <a href="#">view all >></a> </h1>
+
+<div class="box-container">
+
+    <a href="#" class="box">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/cat-1.jpeg" alt="">
+        <h3>fresh cupcake</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/cat-2.jpeg" alt="">
+        <h3>cookies</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/cat-3.jpeg" alt="">
+        <h3>brown bread</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/cat-4.jpeg" alt="">
+        <h3>Dark chocolate</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/cat-5.jpeg" alt="">
+        <h3>Wheat</h3>
+    </a>
+
+
+</div>
+
+</section>
+
+
+
+
+<section class="products">
+
+    <h1 class="title"> our <span>products</span> <a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>berries citrus fruits cake</h3>
+                <div class="price">Rs.250</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>resh mellow sp color cake</h3>
+                <div class="price">Rs.400</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rose color sparkel cake</h3>
+                <div class="price">Rs.450</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-4.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry nutella cake</h3>
+                <div class="price">Rs.200</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-5.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>green bread spar cake</h3>
+                <div class="price">Rs.550</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-6.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>red berries chocolate cake</h3>
+                <div class="price">Rs.300</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-7.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry red spar cake</h3>
+                <div class="price">Rs.200</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/product-8.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>dark chocolate nutella cake</h3>
+                <div class="price">Rs.600</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+
+
+<div class="heading">
+    <h1>About us</h1>
+    </div>
+
+<section class="about" id="About">
+    <div class="img">
+         <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/about-img.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <span>welcome to our products</span>
+        <h3>Basic ingredients</h3>
+        <p>"These basic ingredients for baking a cake are; flour, eggs, fat (usually butter), sugar, salt, a form of liquid (usually milk), and leavening agents (such as baking soda)" </p>
+<h3>About cake</h3>        
+<p>Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays. There are countless cake recipes; some are bread-like, some are rich and elaborate, and many are centuries old. Cake making is no longer a complicated procedure</p>
+   
+    </div>
+</section>
+
+
+
+<section class="gallery">
+    <h1 class="title"> our <span>gallery</span> <a href="#">view all >></a> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/gallery-img-1.jpeg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/gallery-img-2.jpeg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/gallery-img-3.jpeg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/gallery-img-4.jpeg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/gallery-img-5.jpeg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/gallery-img-6.jpeg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="heading">
+    <h1>client's review</h1>
+</div>
+<section class="review">
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/pic-1.jpeg" alt="">
+            <div class="info">
+                <h3>John wick </h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>Me and my fiancé went here to do our cake tasting and honestly every bite was delicious!.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/pic-2.jpeg" alt="">
+            <div class="info">
+                <h3>jenna bey</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>I ordered cupcakes and cookies. Everything was absolutely delicious and very appealing. Great job! I highly recommend</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/pic-3.jpeg" alt="">
+            <div class="info">
+                <h3>edward bey</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>The cupcakes are without a doubt the best I ever had. We received many compliments on how delicious they were. So many choices</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/pic-4.jpeg" alt="">
+            <div class="info">
+                <h3>lisa bey</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>The cake they created for our wedding was absolute perfection. Delicious and beautifully crafted. </p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/pic-5.jpeg" alt="">
+            <div class="info">
+                <h3>edward bey</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>They gave us recommendations on which flavors taste good with each other which was extremely helpful and we had so much fun with this experience thank you for all your help “we said YES to the cake ” and can’t wait for our 2024 wedding day to see how beautiful it’s going to look.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/pic-6.jpeg" alt="">
+            <div class="info">
+                <h3>lalisa bey</h3>
+                <span>happ client</span>
+            </div>
+        </div>
+        <p>Everything was great! Our cake was beautiful & delicious! Just as we envisioned it… They were patient and helpful during our tasting appointment… Our guests said it was the best wedding cake they had ever had! Hands down returning for more!
+
+</p>
+    </div>
+
+</section>
+
+
+
+<div class="heading">
+    <h1>our blogs</h1>
+</div>
+
+<section class="Blogs" id="Blogs">
+    <h1 class="title"> our <span>blogs</span> <a href="#">view all >></a> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/blog-1.jpeg" alt="">
+            <div id="div1">
+             <h2>blogs page</h2>
+             <p><h3>HOW TO DIVIDE YOUR BATTER
+The best way to get nice, even cake layers is to measure how much batter you put in each pan. Check our Cake Baking and Serving Guide to help you determine how much batter is needed for your pan size.<h3></p>
+
+
+HOW TO TELL IF A CAKE IS DONE
+There are a couple ways to check if your cake is done baking. The easiest test is to insert a toothpick into the center of your cake. If it comes out clean (no wet batter on the toothpick), your cakes are done.
+
+You can also lightly press down on the cake with your finger. If the cake springs back, it’s done. If your finger indents the cake, it needs more time.
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/blog-2.jpeg" alt="">
+        <div id="div2">
+         
+        <p><h3>BAKING YOUR CAKE
+Make sure your oven rack is in the center position and the oven is fully preheated to 350℉. Place both pans in the oven, leaving at least 1 inch between pans to allow for air flow and even baking.
+
+Resist the urge to open the oven door until the last 10 minutes of bake time. The rush of cold air from opening the oven too soon can cause your cake to collapse. Use the oven light to check your cake, if necessary.
+ </h3></p>
+
+</div>
+
+    </div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/blog-3.jpeg" alt="">
+    <div id="div3">
+    
+     <p><h3>GIVE YOUR CAKE TIME TO COOL
+When your cake layers are done, remove them from the oven and place each pan on a cooling grid to cool for 15 minutes. Removing the cake from the pan when it’s still hot can cause your cake to stick or break.
+
+Once your cake layers have cooled for 15 minutes, you can remove them from the pans. Let them cool completely on the cooling grid before decorating. It should take anywhere from 30 to 60 minutes for your cakes to completely cool to room temperature.</h3></p>
+
+</div>
+
+   </div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/blog-4.jpeg" alt="">
+<div id="div4">
+ 
+     
+    
+</div>
+ 
+</div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/blog-5.jpeg" alt="">
+    <div id="div5">
+    
+     
+     
+     
+</div>
+
+</div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="file:///C:/Users/Siddharth%20R%20Acharya/OneDrive/Desktop/content%20creation/img/blog-6.jpeg" alt="">
+    <div id="div6">
+    
+     
+     
+     
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact" id="Contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+91 6536765564</p>
+            <p>+91 5743897543</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>cakeworld@gmail.com</p>
+            <p>cakepark@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>Manglore, india - 575003</p>
+        </div>
+
+    </div>
+</section>
+
+<div class="space"></div>
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my favorite </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my wishlist </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+</section>
+
+<section class="credit">created by Siddharth,Disha,Manvitha,Ankitha || all rights reserved</section>
+ <script src="MAIN.js" defer data-deferred="1"></script> </body>
+</html>
